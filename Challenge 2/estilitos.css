@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --DarkCyan:hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Montserrat: 'Montserrat', sans-serif;
+    --Fraunces: 'Fraunces', serif;
+
+}
+
+body{
+    font-family: var(--Montserrat);
+    background-color: var(--Cream);
+}
+
+.main{
+    height: 100vh;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 50%;
+    height: 500px;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* .element{
+    width: 100px;
+    height: 100px;
+} */
+
+.element_img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+.element2{
+    background-color: var(--White);
+    border-radius: 0 10px 10px 0;
+    padding:20px;
+}
+
+.p_title{
+    color: var(--Darkgrayishblue);
+}
+
+.h_title{
+    margin-top: 30px;
+    font-size: 2rem;
+    font-family:var(--Fraunces);
+}
+
+.p_paragraph{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--Darkgrayishblue);
+
+}
+
+.span_element{
+    display: inline-block;
+    margin-top: 30px;
+    color: var(--DarkCyan);
+    font-size: 30px;
+    font-family: var(--Fraunces);
+}
+
+.span_rayado{
+    display: inline-block;
+    margin-left: 10px;    
+    color: var(--Darkgrayishblue);
+}
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--DarkCyan);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--White);
+    display: block;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+@media(max-width:800px){
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+

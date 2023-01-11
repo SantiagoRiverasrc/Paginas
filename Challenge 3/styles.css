@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --backbody:  hsl(217, 54%, 11%);
+    --backcard: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white:  hsl(0, 0%, 100%);
+}
+
+
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backbody);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_div{
+    height: 460px;
+    width: 280px;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: var(--backcard);
+    font-family: 'Outfit', sans-serif;
+}
+
+.figure_div{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.figure_img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.div_text{
+    margin-top: 20px;
+    font-family: 'Outfit', sans-serif;
+    padding: 0.1px;
+    border-bottom: 2px solid var(--line);
+}
+
+.div_title{
+    font-weight: 600;
+    color: var(--white);
+}
+
+.div_title:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.div_paragraph{
+    margin-top:10px;
+    font-weight: 200;
+    color: var(--Softblue);
+}
+
+.nav{
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rubi_p{
+    color: var(--Cyan);
+}
+
+.clock_p{
+    color: var(--Softblue);
+}
+
+.bio{
+    display: flex;
+
+}
+
+.bio_div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.bio_img{
+    width: 30%;
+}
+
+.bio_p{
+    color: var(--Softblue);
+}
+
+.bio_name{
+    font-weight: 600;
+    color: var(--white);
+}
+
+.bio_name:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+

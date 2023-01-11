@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100;1,300&family=Teko:wght@300;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    height: 649px;
+    padding: 0.1px;
+    background-image: url('wave.svg'),linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: white;
+    background-size: 100%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.all_section{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.all_title{
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+.all_paragraph{
+    margin-top:10px;
+    font-family: 'Teko', sans-serif;
+}
+
+.all_btn{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    color: #ff8177;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+
+
+.all_picture{
+    display: flex;
+    justify-content: center;
+}
+
+
+.all_img{
+    height: 290px;
+    width: 500px;
+
+}
